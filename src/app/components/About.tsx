@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
-import { motion } from "motion/react";
-import { AuroraBackground } from "@/app/components/ui/aurora-background";
+// import { motion } from "motion/react";
+// import { AuroraBackground } from "@/app/components/ui/aurora-background";
 
 const About = () => {
   return (
     <section id="about">
-      <AuroraBackground>
+      {/* <AuroraBackground>
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ const About = () => {
             Debug now
           </button>
         </motion.div>
-      </AuroraBackground>
+      </AuroraBackground> */}
     </section>
   );
 };
