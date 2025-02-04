@@ -12,29 +12,35 @@ const Hero = () => {
   const words = [
     {
       text: ">",
+      className: "text-slate-400 dark:text-slate-400",
     },
     {
       text: "Full",
+      className: "text-slate-400 dark:text-slate-400",
     },
     {
       text: "Stack",
+      className: "text-slate-400 dark:text-slate-400",
     },
     {
       text: "Developer",
+      className: "text-slate-400 dark:text-slate-400",
     },
     {
       text: "based",
+      className: "text-slate-400 dark:text-slate-400",
     },
     {
       text: "in",
+      className: "text-slate-400 dark:text-slate-400",
     },
     {
       text: "Lucknow,",
-      className: "text-blue-500 dark:text-primary",
+      className: "text-slate-400 dark:text-primary",
     },
     {
       text: "India.",
-      className: "text-blue-500 dark:text-primary",
+      className: "text-slate-400 dark:text-primary",
     },
   ];
   return (
@@ -51,10 +57,10 @@ const Hero = () => {
               &apos;Crafting websites that feel as good as they look.&apos; -
               ChatGPT
             </h2>
-            <h1 className="text-center mt-8 leading-3 text-lg md:text-2xl lg:text-4xl font-jetbrainsMono">
+            <h1 className="text-center mt-8 leading-3 text-lg md:text-2xl lg:text-4xl font-jetbrainsMono text-slate-400">
               Hi all. I am
             </h1>
-            <h2 className="text-center text-4xl lg:text-8xl leading-none font-jetbrainsMono text-primary">
+            <h2 className="text-center text-4xl lg:text-8xl leading-none font-merriweather text-primary">
               Nilay Saxena
             </h2>
             <div className="text-center md:tracking-wider mb-4 text-lg lg:text-2xl font-jetbrainsMono">
@@ -66,6 +72,7 @@ const Hero = () => {
               position="right"
               otherClasses="mt-8 text-slate-400 border-slate-800"
               handleClick={handleClick}
+              animate={true}
             />
           </div>
         </div>
